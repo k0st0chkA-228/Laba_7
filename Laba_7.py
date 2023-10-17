@@ -5,7 +5,7 @@ import string
 class Password:
     def __init__(self):
         self.chrs = string.ascii_letters + string.digits
-        self.ltrs = string.ascii_uppercase + string.ascii_lowercase
+        self.ltrs = string.ascii_letters
         self.psw = ""
 
     def gen_pas(self):
